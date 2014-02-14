@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package javaapplication18;
 
 /**
@@ -12,11 +11,30 @@ package javaapplication18;
  */
 public class JavaApplication18 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    String kat;
+    String mus;
+
+    public JavaApplication18(String kat, String mus) {
+        this.kat = kat;
+        this.mus = mus;
     }
-    
+
+    public String getKat() {
+        return kat;
+    }
+
+    public void setKat(String kat) {
+        this.kat = kat;
+    }
+
+    public String getMus() {
+        return mus;
+    }
+
+    public void setMus(String mus) {
+        this.mus = mus;
+    }
+
+   
+
 }
