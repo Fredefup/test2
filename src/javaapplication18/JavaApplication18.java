@@ -13,6 +13,7 @@ public class JavaApplication18 {
 
     String kat;
     String mus;
+    String hund;
 
     public JavaApplication18(String kat, String mus) {
         this.kat = kat;
